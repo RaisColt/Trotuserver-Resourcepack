@@ -1,0 +1,21 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "model": "minecraft:item/netherite_shovel",
+    "property": "minecraft:component",
+    "component": "minecraft:custom_name",
+    "cases": [
+      {
+        "when": "Atlasian Shovel",
+        "model": {
+          "type": "minecraft:model",
+          "model": "item/atlasia/atlasia_shovel"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/netherite_shovel"
+    }
+  }
+}

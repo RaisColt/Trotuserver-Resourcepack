@@ -1,0 +1,18 @@
+{
+    "credit": "Made with Blockbench",
+    "textureSize": [32, 32],
+    "models": [
+    {
+        "part": "head",
+        "id": "head",
+        "invertAxis": "xy",
+        "translate": [0, -24, 0],
+        "texture": "textures/entity/equipment/humanoid/crowns/grendtabtian.png",
+        "textureSize": [64, 32],
+        "boxes": [
+			{"coordinates": [-4, 24, -4, 8, 8, 8], "textureOffset": [32, 0], "sizeAdd": 1.25},
+			{"coordinates": [-4, 24, -4, 8, 8, 8], "textureOffset": [0, 0], "sizeAdd": 1}
+        ]
+    }
+    ]
+}

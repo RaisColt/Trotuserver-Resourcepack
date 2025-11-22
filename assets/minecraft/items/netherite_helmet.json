@@ -1,0 +1,163 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "model": "minecraft:item/netherite_helmet",
+    "property": "minecraft:component",
+    "component": "minecraft:custom_name",
+    "cases": [
+      {
+        "when": "Atlasian Helmet",
+        "model": {
+          "type": "minecraft:model",
+          "model": "item/atlasia/atlasia_helmet"
+        }
+      },
+      {
+        "when": "Mechanicus Helmet",
+        "model": {
+          "type": "minecraft:model",
+          "model": "item/adeptus_mechanicus/adeptus_mechanicus_helmet"
+        }
+      },
+      {
+        "when": "Berunian Helmet",
+        "model": {
+          "type": "minecraft:model",
+          "model": "item/berun/berun_helmet"
+        }
+      },
+      {
+        "when": "Beleriand Helmet",
+        "model": {
+          "type": "minecraft:model",
+          "model": "item/beleriand/beleriand_helmet"
+        }
+      },
+      {
+        "when": "Chesapeak Helmet",
+        "model": {
+          "type": "minecraft:model",
+          "model": "item/chesapeak/chesapeak_helmet"
+        }
+      },
+      {
+        "when": "Grendtabtian Helmet",
+        "model": {
+          "type": "minecraft:model",
+          "model": "item/grendtabtia/grendtabtia_helmet"
+        }
+      },      
+      {
+        "when": "Tiara of Atlasia",
+        "model": {
+          "type": "minecraft:model",
+          "model": "item/atlasia/atlasia_crown"
+        }
+      },
+      {
+        "when": "Tiara of Atlasia - Queen Rais",
+        "model": {
+          "type": "minecraft:model",
+          "model": "item/atlasia/atlasia_crown"
+        }
+      },
+      {
+        "when": "Tiara of Atlasia - Queen Molly",
+        "model": {
+          "type": "minecraft:model",
+          "model": "item/atlasia/atlasia_crown"
+        }
+      },
+      {
+        "when": "The Crown of Berun",
+        "model": {
+          "type": "minecraft:model",
+          "model": "item/berun/berun_crown"
+        }
+      },
+      {
+        "when": "The Crown of Arez",
+        "model": {
+          "type": "minecraft:model",
+          "model": "item/arez/arez_crown"
+        }
+      },
+      {
+        "when": "Astorian Crown",
+        "model": {
+          "type": "minecraft:model",
+          "model": "item/astoria/astorian_crown"
+        }
+      }, 
+      {
+        "when": "Crown of Grendtabtia",
+        "model": {
+          "type": "minecraft:model",
+          "model": "item/grendtabtia/grendtabtia_crown"
+        }
+      },
+      {
+        "when": "The Crown of Cormere",
+        "model": {
+          "type": "minecraft:model",
+          "model": "item/cormere/cormere_crown"
+        }
+      }, 
+      {
+        "when": "Imperial Crown of Occitania",
+        "model": {
+          "type": "minecraft:model",
+          "model": "item/occitania/occitania_crown"
+        }
+      }
+      ,      
+      {
+        "when": "Crown of Danswijk",
+        "model": {
+          "type": "minecraft:model",
+          "model": "item/danswijk/danswijk_crown"
+        }
+      }, 
+      {
+        "when": "Press",
+        "model": {
+          "type": "minecraft:model",
+          "model": "item/fun/press"
+        }
+      }, 
+      {
+        "when": "Galadinian Helmet",
+        "model": {
+          "type": "minecraft:model",
+          "model": "item/galadines/galadinian_helmet"
+        }
+      }, 
+      {
+        "when": "Evermondian Helmet",
+        "model": {
+          "type": "minecraft:model",
+          "model": "item/evermond/evermondian_helmet"
+        }
+      }, 
+      {
+        "when": "Occitanian Helmet",
+        "model": {
+          "type": "minecraft:model",
+          "model": "item/occitania/occitanian_helmet"
+        }
+      }, 
+      {
+        "when": "Winged Atlasian",
+        "model": {
+          "type": "minecraft:model",
+          "model": "item/atlasia/atlasia_flight_helmet_item"
+        }
+      }
+
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/netherite_helmet"
+    }
+  }
+}
