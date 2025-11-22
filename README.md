@@ -103,7 +103,7 @@
 - Record 13 as Undesired by rommirom
 - Record blocks as VorraneGaul Diss Track by rommirom
 - Record far as Edelweiss Must Grow by VorraneGaul
-- Record mall as It's the Elite by CD_Cyber_Dragon and VorraGaul
+- Record mall as It's the Elite by CD_Cyber_Dragon and VorraneGaul
 - Record precipice as Welcome to Trotuserver by VorraneGaul
 - Record wait as One Day More by VorraneGaul
 - Record ward as Mr. Pig Empire by CD_Cyber_Dragon
