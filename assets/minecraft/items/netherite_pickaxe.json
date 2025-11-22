@@ -1,0 +1,21 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "model": "minecraft:item/netherite_pickaxe",
+    "property": "minecraft:component",
+    "component": "minecraft:custom_name",
+    "cases": [
+      {
+        "when": "Atlasian Wrench",
+        "model": {
+          "type": "minecraft:model",
+          "model": "item/atlasia/atlasia_pickaxe"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/netherite_pickaxe"
+    }
+  }
+}

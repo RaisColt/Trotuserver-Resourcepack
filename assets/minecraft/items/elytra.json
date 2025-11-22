@@ -1,0 +1,36 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:component",
+    "component": "minecraft:custom_name",
+    "cases": [
+      {
+        "when": "Atlasian Wings",
+        "model": {
+          "type": "minecraft:condition",
+          "property": "minecraft:broken",
+          "on_true": {
+            "type": "minecraft:model",
+            "model": "item/atlasia/atlasia_elytra_broken"
+          },
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "item/atlasia/atlasia_elytra"
+          }
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:condition",
+      "property": "minecraft:broken",
+      "on_true": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/elytra_broken"
+      },
+      "on_false": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/elytra"
+      }
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "model": "minecraft:item/netherite_sword",
+    "property": "minecraft:component",
+    "component": "minecraft:custom_name",
+    "cases": [
+      {
+        "when": "Atlan Spike",
+        "model": {
+          "type": "minecraft:model",
+          "model": "item/atlasia/atlasia_sword"
+        }
+      },
+      {
+        "when": "Mechanicus Battleaxe",
+        "model": {
+          "type": "minecraft:model",
+          "model": "item/adeptus_mechanicus/adeptus_mechanicus_sword"
+        }
+      },
+      {
+        "when": "Cormerian Sabre",
+        "model": {
+          "type": "minecraft:model",
+          "model": "item/cormere/cormere_sword"
+        }
+      }, 
+      {
+        "when": "Grendtabtian Rapier",
+        "model": {
+          "type": "minecraft:model",
+          "model": "item/grendtabtia/grendtabtia_sword"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/netherite_sword"
+    }
+  }
+}

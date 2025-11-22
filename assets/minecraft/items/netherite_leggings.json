@@ -1,0 +1,77 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "model": "minecraft:item/netherite_leggings",
+    "property": "minecraft:component",
+    "component": "minecraft:custom_name",
+    "cases": [
+      {
+        "when": "Atlasian Leggings",
+        "model": {
+          "type": "minecraft:model",
+          "model": "item/atlasia/atlasia_leggings"
+        }
+      },
+      {
+        "when": "Mechanicus Leggings",
+        "model": {
+          "type": "minecraft:model",
+          "model": "item/adeptus_mechanicus/adeptus_mechanicus_leggings"
+        }
+      },
+      {
+        "when": "Berunian Leggings",
+        "model": {
+          "type": "minecraft:model",
+          "model": "item/berun/berun_leggings"
+        }
+      },
+      {
+        "when": "Beleriand Leggings",
+        "model": {
+          "type": "minecraft:model",
+          "model": "item/beleriand/beleriand_leggings"
+        }
+      },
+      {
+        "when": "Chesapeak Leggings",
+        "model": {
+          "type": "minecraft:model",
+          "model": "item/chesapeak/chesapeak_leggings"
+        }
+      },
+      {
+        "when": "Grendtabtian Leggings",
+        "model": {
+          "type": "minecraft:model",
+          "model": "item/grendtabtia/grendtabtia_leggings"
+        }
+      }, 
+      {
+        "when": "Galadinian Leggings",
+        "model": {
+          "type": "minecraft:model",
+          "model": "item/galadines/galadinian_leggings"
+        }
+      }, 
+      {
+        "when": "Evermondian Leggings",
+        "model": {
+          "type": "minecraft:model",
+          "model": "item/evermond/evermondian_leggings"
+        }
+      }, 
+      {
+        "when": "Occitanian Leggings",
+        "model": {
+          "type": "minecraft:model",
+          "model": "item/occitania/occitanian_leggings"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/netherite_leggings"
+    }
+  }
+}
