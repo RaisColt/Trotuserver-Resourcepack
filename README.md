@@ -1,4 +1,4 @@
-# ![image](https://crafatar.com/avatars/d2f40f41-f359-4d9e-860e-28e31833cfc7?size=25) Trotuserver Resourcepack Features ![image](https://crafatar.com/avatars/d2f40f41-f359-4d9e-860e-28e31833cfc7?size=25)
+# ![image](https://media.discordapp.net/attachments/891788847325773824/1441657937138290739/image.png?ex=692340d4&is=6921ef54&hm=a5395cece2f2d77a72696c2c6b17fa3f996e683949fcb52f67feb90547c25bf1&=&format=webp&quality=lossless) Trotuserver Resourcepack Features ![image](https://media.discordapp.net/attachments/891788847325773824/1441657937138290739/image.png?ex=692340d4&is=6921ef54&hm=a5395cece2f2d77a72696c2c6b17fa3f996e683949fcb52f67feb90547c25bf1&=&format=webp&quality=lossless)
 
 
 ## Retextures
