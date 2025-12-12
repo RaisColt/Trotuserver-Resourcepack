@@ -1,7 +1,6 @@
 {
   "model": {
     "type": "minecraft:select",
-    "model": "minecraft:item/netherite_boots",
     "property": "minecraft:component",
     "component": "minecraft:custom_name",
     "cases": [
@@ -73,6 +72,13 @@
         "model": {
           "type": "minecraft:model",
           "model": "item/occitania/occitanian_boots"
+        }
+      }, 
+      {
+        "when": "Askegarddian Boots",
+        "model": {
+          "type": "minecraft:model",
+          "model": "item/askegardd/askegardd_boots"
         }
       }
     ],

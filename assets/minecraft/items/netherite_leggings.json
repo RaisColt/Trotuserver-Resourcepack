@@ -1,7 +1,6 @@
 {
   "model": {
     "type": "minecraft:select",
-    "model": "minecraft:item/netherite_leggings",
     "property": "minecraft:component",
     "component": "minecraft:custom_name",
     "cases": [
@@ -66,6 +65,13 @@
         "model": {
           "type": "minecraft:model",
           "model": "item/occitania/occitanian_leggings"
+        }
+      }, 
+      {
+        "when": "Askegarddian Leggings",
+        "model": {
+          "type": "minecraft:model",
+          "model": "item/askegardd/askegardd_leggings"
         }
       }
     ],

@@ -1,0 +1,801 @@
+{
+  "model": {
+    "type": "minecraft:condition",
+    "property": "minecraft:component",
+    "predicate": "minecraft:written_book_content",
+    "value": {
+      "title": "Naten Autobio I",
+      "author": "Naten_",
+      "generation": {
+        "min": 0,
+        "max": 2
+      }
+    },
+    "on_true": {
+      "type": "minecraft:model",
+      "model": "item/autobiographies/natens_autobiography"
+    },
+    "on_false": {
+      "type": "minecraft:condition",
+      "property": "minecraft:component",
+      "predicate": "minecraft:written_book_content",
+      "value": {
+        "author": "Naten_",
+        "title": "Naten Autbio II",
+        "generation": {
+          "min": 0,
+          "max": 2
+        }
+      },
+      "on_true": {
+        "type": "minecraft:model",
+        "model": "item/autobiographies/natens_autobiography"
+      },
+      "on_false": {
+        "type": "minecraft:condition",
+        "property": "minecraft:component",
+        "predicate": "minecraft:written_book_content",
+        "value": {
+          "author": "Naten_",
+          "title": "NatenAutbioIII",
+          "generation": {
+            "min": 0,
+            "max": 2
+          }
+        },
+        "on_true": {
+          "type": "minecraft:model",
+          "model": "item/autobiographies/natens_autobiography"
+        },
+        "on_false": {
+          "type": "minecraft:condition",
+          "property": "minecraft:component",
+          "predicate": "minecraft:written_book_content",
+          "value": {
+            "author": "Naten_",
+            "title": "NatenAutbioIV",
+            "generation": {
+              "min": 0,
+              "max": 2
+            }
+          },
+          "on_true": {
+            "type": "minecraft:model",
+            "model": "item/autobiographies/natens_autobiography"
+          },
+          "on_false": {
+            "type": "minecraft:condition",
+            "property": "minecraft:component",
+            "predicate": "minecraft:written_book_content",
+            "value": {
+              "author": "Naten_",
+              "title": "NatenAutobioV",
+              "generation": {
+                "min": 0,
+                "max": 2
+              }
+            },
+            "on_true": {
+              "type": "minecraft:model",
+              "model": "item/autobiographies/natens_autobiography"
+            },
+            "on_false": {
+              "type": "minecraft:condition",
+              "property": "minecraft:component",
+              "predicate": "minecraft:written_book_content",
+              "value": {
+                "author": "Naten_",
+                "title": "NatenAutbioVS",
+                "generation": {
+                  "min": 0,
+                  "max": 2
+                }
+              },
+              "on_true": {
+                "type": "minecraft:model",
+                "model": "item/autobiographies/natens_autobiography"
+              },
+              "on_false": {
+                "type": "minecraft:condition",
+                "property": "minecraft:component",
+                "predicate": "minecraft:written_book_content",
+                "value": {
+                  "author": "WimpyShrimp",
+                  "title": "R.I.C LifePass",
+                  "generation": {
+                    "min": 0,
+                    "max": 2
+                  }
+                },
+                "on_true": {
+                  "type": "minecraft:model",
+                  "model": "item/ric/ric_lifepass"
+                },
+                "on_false": {
+                  "type": "minecraft:condition",
+                  "property": "minecraft:component",
+                  "predicate": "minecraft:written_book_content",
+                  "value": {
+                    "author": "WimpyShrimp",
+                    "title": "R.I.C. TempPass",
+                    "generation": {
+                      "min": 0,
+                      "max": 2
+                    }
+                  },
+                  "on_true": {
+                    "type": "minecraft:model",
+                    "model": "item/ric/ric_temppass"
+                  },
+                  "on_false": {
+                    "type": "minecraft:condition",
+                    "property": "minecraft:component",
+                    "predicate": "minecraft:written_book_content",
+                    "value": {
+                      "author": "WimpyShrimp",
+                      "title": "R.I.C. Ticket",
+                      "generation": {
+                        "min": 0,
+                        "max": 2
+                      }
+                    },
+                    "on_true": {
+                      "type": "minecraft:model",
+                      "model": "item/ric/ric_ticket"
+                    },
+                    "on_false": {
+                      "type": "minecraft:condition",
+                      "property": "minecraft:component",
+                      "predicate": "minecraft:written_book_content",
+                      "value": {
+                        "author": "Zaniel",
+                        "title": "Zaniel 1",
+                        "generation": {
+                          "min": 0,
+                          "max": 2
+                        }
+                      },
+                      "on_true": {
+                        "type": "minecraft:model",
+                        "model": "item/autobiographies/zaniels_autobiography"
+                      },
+                      "on_false": {
+                        "type": "minecraft:condition",
+                        "property": "minecraft:component",
+                        "predicate": "minecraft:written_book_content",
+                        "value": {
+                          "author": "Zaniel",
+                          "title": "Zaniel II",
+                          "generation": {
+                            "min": 0,
+                            "max": 2
+                          }
+                        },
+                        "on_true": {
+                          "type": "minecraft:model",
+                          "model": "item/autobiographies/zaniels_autobiography"
+                        },
+                        "on_false": {
+                          "type": "minecraft:condition",
+                          "property": "minecraft:component",
+                          "predicate": "minecraft:written_book_content",
+                          "value": {
+                            "author": "Zaniel",
+                            "title": "Zaniel 3",
+                            "generation": {
+                              "min": 0,
+                              "max": 2
+                            }
+                          },
+                          "on_true": {
+                            "type": "minecraft:model",
+                            "model": "item/autobiographies/zaniels_autobiography"
+                          },
+                          "on_false": {
+                            "type": "minecraft:condition",
+                            "property": "minecraft:component",
+                            "predicate": "minecraft:written_book_content",
+                            "value": {
+                              "author": "Zaniel",
+                              "title": "Zaniel 4",
+                              "generation": {
+                                "min": 0,
+                                "max": 2
+                              }
+                            },
+                            "on_true": {
+                              "type": "minecraft:model",
+                              "model": "item/autobiographies/zaniels_autobiography"
+                            },
+                            "on_false": {
+                              "type": "minecraft:condition",
+                              "property": "minecraft:component",
+                              "predicate": "minecraft:written_book_content",
+                              "value": {
+                                "author": "Zaniel",
+                                "title": "Zaniel 5",
+                                "generation": {
+                                  "min": 0,
+                                  "max": 2
+                                }
+                              },
+                              "on_true": {
+                                "type": "minecraft:model",
+                                "model": "item/autobiographies/zaniels_autobiography"
+                              },
+                              "on_false": {
+                                "type": "minecraft:condition",
+                                "property": "minecraft:component",
+                                "predicate": "minecraft:written_book_content",
+                                "value": {
+                                  "author": "Zaniel",
+                                  "title": "Zaniel 6",
+                                  "generation": {
+                                    "min": 0,
+                                    "max": 2
+                                  }
+                                },
+                                "on_true": {
+                                  "type": "minecraft:model",
+                                  "model": "item/autobiographies/zaniels_autobiography"
+                                },
+                                "on_false": {
+                                  "type": "minecraft:condition",
+                                  "property": "minecraft:component",
+                                  "predicate": "minecraft:written_book_content",
+                                  "value": {
+                                    "author": "Zaniel",
+                                    "title": "Zaniel 7",
+                                    "generation": {
+                                      "min": 0,
+                                      "max": 2
+                                    }
+                                  },
+                                  "on_true": {
+                                    "type": "minecraft:model",
+                                    "model": "item/autobiographies/zaniels_autobiography"
+                                  },
+                                  "on_false": {
+                                    "type": "minecraft:condition",
+                                    "property": "minecraft:component",
+                                    "predicate": "minecraft:written_book_content",
+                                    "value": {
+                                      "author": "Zaniel",
+                                      "title": "Zaniel 8",
+                                      "generation": {
+                                        "min": 0,
+                                        "max": 2
+                                      }
+                                    },
+                                    "on_true": {
+                                      "type": "minecraft:model",
+                                      "model": "item/autobiographies/zaniels_autobiography"
+                                    },
+                                    "on_false": {
+                                      "type": "minecraft:condition",
+                                      "property": "minecraft:component",
+                                      "predicate": "minecraft:written_book_content",
+                                      "value": {
+                                        "author": "Zaniel",
+                                        "title": "Zaniel 9",
+                                        "generation": {
+                                          "min": 0,
+                                          "max": 2
+                                        }
+                                      },
+                                      "on_true": {
+                                        "type": "minecraft:model",
+                                        "model": "item/autobiographies/zaniels_autobiography"
+                                      },
+                                      "on_false": {
+                                        "type": "minecraft:condition",
+                                        "property": "minecraft:component",
+                                        "predicate": "minecraft:written_book_content",
+                                        "value": {
+                                          "author": "Zaniel",
+                                          "title": "Zaniel 10",
+                                          "generation": {
+                                            "min": 0,
+                                            "max": 2
+                                          }
+                                        },
+                                        "on_true": {
+                                          "type": "minecraft:model",
+                                          "model": "item/autobiographies/zaniels_autobiography"
+                                        },
+                                        "on_false": {
+                                          "type": "minecraft:condition",
+                                          "property": "minecraft:component",
+                                          "predicate": "minecraft:written_book_content",
+                                          "value": {
+                                            "author": "Zaniel",
+                                            "title": "Zaniel 11",
+                                            "generation": {
+                                              "min": 0,
+                                              "max": 2
+                                            }
+                                          },
+                                          "on_true": {
+                                            "type": "minecraft:model",
+                                            "model": "item/autobiographies/zaniels_autobiography"
+                                          },
+                                          "on_false": {
+                                            "type": "minecraft:condition",
+                                            "property": "minecraft:component",
+                                            "predicate": "minecraft:written_book_content",
+                                            "value": {
+                                              "author": "Zaniel",
+                                              "title": "Zaniel 12",
+                                              "generation": {
+                                                "min": 0,
+                                                "max": 2
+                                              }
+                                            },
+                                            "on_true": {
+                                              "type": "minecraft:model",
+                                              "model": "item/autobiographies/zaniels_autobiography"
+                                            },
+                                            "on_false": {
+                                              "type": "minecraft:condition",
+                                              "property": "minecraft:component",
+                                              "predicate": "minecraft:written_book_content",
+                                              "value": {
+                                                "author": "Zaniel",
+                                                "title": "Zaniel 13",
+                                                "generation": {
+                                                  "min": 0,
+                                                  "max": 2
+                                                }
+                                              },
+                                              "on_true": {
+                                                "type": "minecraft:model",
+                                                "model": "item/autobiographies/zaniels_autobiography"
+                                              },
+                                              "on_false": {
+                                                "type": "minecraft:condition",
+                                                "property": "minecraft:component",
+                                                "predicate": "minecraft:written_book_content",
+                                                "value": {
+                                                  "author": "Zaniel",
+                                                  "title": "Zaniel 14",
+                                                  "generation": {
+                                                    "min": 0,
+                                                    "max": 2
+                                                  }
+                                                },
+                                                "on_true": {
+                                                  "type": "minecraft:model",
+                                                  "model": "item/autobiographies/zaniels_autobiography"
+                                                },
+                                                "on_false": {
+                                                  "type": "minecraft:condition",
+                                                  "property": "minecraft:component",
+                                                  "predicate": "minecraft:written_book_content",
+                                                  "value": {
+                                                    "author": "Zaniel",
+                                                    "title": "Zaniel 15",
+                                                    "generation": {
+                                                      "min": 0,
+                                                      "max": 2
+                                                    }
+                                                  },
+                                                  "on_true": {
+                                                    "type": "minecraft:model",
+                                                    "model": "item/autobiographies/zaniels_autobiography"
+                                                  },
+                                                  "on_false": {
+                                                    "type": "minecraft:condition",
+                                                    "property": "minecraft:component",
+                                                    "predicate": "minecraft:written_book_content",
+                                                    "value": {
+                                                      "author": "Zaniel",
+                                                      "title": "Zaniel 16",
+                                                      "generation": {
+                                                        "min": 0,
+                                                        "max": 2
+                                                      }
+                                                    },
+                                                    "on_true": {
+                                                      "type": "minecraft:model",
+                                                      "model": "item/autobiographies/zaniels_autobiography"
+                                                    },
+                                                    "on_false": {
+                                                      "type": "minecraft:condition",
+                                                      "property": "minecraft:component",
+                                                      "predicate": "minecraft:written_book_content",
+                                                      "value": {
+                                                        "author": "Zaniel",
+                                                        "title": "Zaniel 17",
+                                                        "generation": {
+                                                          "min": 0,
+                                                          "max": 2
+                                                        }
+                                                      },
+                                                      "on_true": {
+                                                        "type": "minecraft:model",
+                                                        "model": "item/autobiographies/zaniels_autobiography"
+                                                      },
+                                                      "on_false": {
+                                                        "type": "minecraft:condition",
+                                                        "property": "minecraft:component",
+                                                        "predicate": "minecraft:written_book_content",
+                                                        "value": {
+                                                          "author": "TheCaspeer",
+                                                          "title": "1 Berunino",
+                                                          "generation": {
+                                                            "min": 0,
+                                                            "max": 2
+                                                          }
+                                                        },
+                                                        "on_true": {
+                                                          "type": "minecraft:model",
+                                                          "model": "item/currencies/beruninos/berunino_1"
+                                                        },
+                                                        "on_false": {
+                                                          "type": "minecraft:condition",
+                                                          "property": "minecraft:component",
+                                                          "predicate": "minecraft:written_book_content",
+                                                          "value": {
+                                                            "author": "TheCaspeer",
+                                                            "title": "1 Berunino",
+                                                            "generation": {
+                                                              "min": 0,
+                                                              "max": 2
+                                                            }
+                                                          },
+                                                          "on_true": {
+                                                            "type": "minecraft:model",
+                                                            "model": "item/currencies/beruninos/berunino_1"
+                                                          },
+                                                          "on_false": {
+                                                            "type": "minecraft:condition",
+                                                            "property": "minecraft:component",
+                                                            "predicate": "minecraft:written_book_content",
+                                                            "value": {
+                                                              "author": "TheCaspeer",
+                                                              "title": "5 Berunino",
+                                                              "generation": {
+                                                                "min": 0,
+                                                                "max": 2
+                                                              }
+                                                            },
+                                                            "on_true": {
+                                                              "type": "minecraft:model",
+                                                              "model": "item/currencies/beruninos/berunino_5"
+                                                            },
+                                                            "on_false": {
+                                                              "type": "minecraft:condition",
+                                                              "property": "minecraft:component",
+                                                              "predicate": "minecraft:written_book_content",
+                                                              "value": {
+                                                                "author": "TheCaspeer",
+                                                                "title": "10 Berunino",
+                                                                "generation": {
+                                                                  "min": 0,
+                                                                  "max": 2
+                                                                }
+                                                              },
+                                                              "on_true": {
+                                                                "type": "minecraft:model",
+                                                                "model": "item/currencies/beruninos/berunino_10"
+                                                              },
+                                                              "on_false": {
+                                                                "type": "minecraft:condition",
+                                                                "property": "minecraft:component",
+                                                                "predicate": "minecraft:written_book_content",
+                                                                "value": {
+                                                                  "author": "TheCaspeer",
+                                                                  "title": "20 Berunino",
+                                                                  "generation": {
+                                                                    "min": 0,
+                                                                    "max": 2
+                                                                  }
+                                                                },
+                                                                "on_true": {
+                                                                  "type": "minecraft:model",
+                                                                  "model": "item/currencies/beruninos/berunino_20"
+                                                                },
+                                                                "on_false": {
+                                                                  "type": "minecraft:condition",
+                                                                  "property": "minecraft:component",
+                                                                  "predicate": "minecraft:written_book_content",
+                                                                  "value": {
+                                                                    "author": "Naten_",
+                                                                    "title": "1N\u20ac",
+                                                                    "generation": {
+                                                                      "min": 0,
+                                                                      "max": 2
+                                                                    }
+                                                                  },
+                                                                  "on_true": {
+                                                                    "type": "minecraft:model",
+                                                                    "model": "item/currencies/noble_crownets/nc_1"
+                                                                  },
+                                                                  "on_false": {
+                                                                    "type": "minecraft:condition",
+                                                                    "property": "minecraft:component",
+                                                                    "predicate": "minecraft:written_book_content",
+                                                                    "value": {
+                                                                      "author": "Pawelek1212",
+                                                                      "title": "5N\u20ac",
+                                                                      "generation": {
+                                                                        "min": 0,
+                                                                        "max": 2
+                                                                      }
+                                                                    },
+                                                                    "on_true": {
+                                                                      "type": "minecraft:model",
+                                                                      "model": "item/currencies/noble_crownets/nc_5"
+                                                                    },
+                                                                    "on_false": {
+                                                                      "type": "minecraft:condition",
+                                                                      "property": "minecraft:component",
+                                                                      "predicate": "minecraft:written_book_content",
+                                                                      "value": {
+                                                                        "author": "Naten_",
+                                                                        "title": "10N\u20ac",
+                                                                        "generation": {
+                                                                          "min": 0,
+                                                                          "max": 2
+                                                                        }
+                                                                      },
+                                                                      "on_true": {
+                                                                        "type": "minecraft:model",
+                                                                        "model": "item/currencies/noble_crownets/nc_10"
+                                                                      },
+                                                                      "on_false": {
+                                                                        "type": "minecraft:condition",
+                                                                        "property": "minecraft:component",
+                                                                        "predicate": "minecraft:written_book_content",
+                                                                        "value": {
+                                                                          "author": "Pawelek1212",
+                                                                          "title": "50N\u20ac",
+                                                                          "generation": {
+                                                                            "min": 0,
+                                                                            "max": 2
+                                                                          }
+                                                                        },
+                                                                        "on_true": {
+                                                                          "type": "minecraft:model",
+                                                                          "model": "item/currencies/noble_crownets/nc_50"
+                                                                        },
+                                                                        "on_false": {
+                                                                          "type": "minecraft:condition",
+                                                                          "property": "minecraft:component",
+                                                                          "predicate": "minecraft:written_book_content",
+                                                                          "value": {
+                                                                            "author": "Naten_",
+                                                                            "title": "100N\u20ac",
+                                                                            "generation": {
+                                                                              "min": 0,
+                                                                              "max": 2
+                                                                            }
+                                                                          },
+                                                                          "on_true": {
+                                                                            "type": "minecraft:model",
+                                                                            "model": "item/currencies/noble_crownets/nc_100"
+                                                                          },
+                                                                          "on_false": {
+                                                                            "type": "minecraft:condition",
+                                                                            "property": "minecraft:component",
+                                                                            "predicate": "minecraft:written_book_content",
+                                                                            "value": {
+                                                                              "author": "Pawelek1212",
+                                                                              "title": "200N\u20ac",
+                                                                              "generation": {
+                                                                                "min": 0,
+                                                                                "max": 2
+                                                                              }
+                                                                            },
+                                                                            "on_true": {
+                                                                              "type": "minecraft:model",
+                                                                              "model": "item/currencies/noble_crownets/nc_200"
+                                                                            },
+                                                                            "on_false": {
+                                                                              "type": "minecraft:condition",
+                                                                              "property": "minecraft:component",
+                                                                              "predicate": "minecraft:written_book_content",
+                                                                              "value": {
+                                                                                "author": "ALPHA_2071",
+                                                                                "title": "[1] Freemark",
+                                                                                "generation": 2
+                                                                              },
+                                                                              "on_true": {
+                                                                                "type": "minecraft:range_dispatch",
+                                                                                "property": "minecraft:count",
+                                                                                "normalize": false,
+                                                                                "entries": [
+                                                                                  {
+                                                                                    "threshold": 1,
+                                                                                    "model": {
+                                                                                      "type": "minecraft:model",
+                                                                                      "model": "item/currencies/freemarks/freemark_1-1"
+                                                                                    }
+                                                                                  },
+                                                                                  {
+                                                                                    "threshold": 4,
+                                                                                    "model": {
+                                                                                      "type": "minecraft:model",
+                                                                                      "model": "item/currencies/freemarks/freemark_1-2"
+                                                                                    }
+                                                                                  },
+                                                                                  {
+                                                                                    "threshold": 8,
+                                                                                    "model": {
+                                                                                      "type": "minecraft:model",
+                                                                                      "model": "item/currencies/freemarks/freemark_1-3"
+                                                                                    }
+                                                                                  },
+                                                                                  {
+                                                                                    "threshold": 16,
+                                                                                    "model": {
+                                                                                      "type": "minecraft:model",
+                                                                                      "model": "item/currencies/freemarks/freemark_1-4"
+                                                                                    }
+                                                                                  }
+                                                                                ]
+                                                                              },
+                                                                              "on_false": {
+                                                                                "type": "minecraft:condition",
+                                                                                "property": "minecraft:component",
+                                                                                "predicate": "minecraft:written_book_content",
+                                                                                "value": {
+                                                                                  "author": "ALPHA_2071",
+                                                                                  "title": "[4] Freemark",
+                                                                                  "generation": 2
+                                                                                },
+                                                                                "on_true": {
+                                                                                  "type": "minecraft:range_dispatch",
+                                                                                  "property": "minecraft:count",
+                                                                                  "normalize": false,
+                                                                                  "entries": [
+                                                                                    {
+                                                                                      "threshold": 1,
+                                                                                      "model": {
+                                                                                        "type": "minecraft:model",
+                                                                                        "model": "item/currencies/freemarks/freemark_4-1"
+                                                                                      }
+                                                                                    },
+                                                                                    {
+                                                                                      "threshold": 4,
+                                                                                      "model": {
+                                                                                        "type": "minecraft:model",
+                                                                                        "model": "item/currencies/freemarks/freemark_4-2"
+                                                                                      }
+                                                                                    },
+                                                                                    {
+                                                                                      "threshold": 5,
+                                                                                      "model": {
+                                                                                        "type": "minecraft:model",
+                                                                                        "model": "item/currencies/freemarks/freemark_4-3"
+                                                                                      }
+                                                                                    },
+                                                                                    {
+                                                                                      "threshold": 8,
+                                                                                      "model": {
+                                                                                        "type": "minecraft:model",
+                                                                                        "model": "item/currencies/freemarks/freemark_4-4"
+                                                                                      }
+                                                                                    }
+                                                                                  ]
+                                                                                },
+                                                                                "on_false": {
+                                                                                  "type": "minecraft:condition",
+                                                                                  "property": "minecraft:component",
+                                                                                  "predicate": "minecraft:written_book_content",
+                                                                                  "value": {
+                                                                                    "author": "ALPHA_2071",
+                                                                                    "title": "[16] Freemark",
+                                                                                    "generation": 2
+                                                                                  },
+                                                                                  "on_true": {
+                                                                                    "type": "minecraft:range_dispatch",
+                                                                                    "property": "minecraft:count",
+                                                                                    "normalize": false,
+                                                                                    "entries": [
+                                                                                      {
+                                                                                        "threshold": 1,
+                                                                                        "model": {
+                                                                                          "type": "minecraft:model",
+                                                                                          "model": "item/currencies/freemarks/freemark_16-1"
+                                                                                        }
+                                                                                      },
+                                                                                      {
+                                                                                        "threshold": 4,
+                                                                                        "model": {
+                                                                                          "type": "minecraft:model",
+                                                                                          "model": "item/currencies/freemarks/freemark_16-2"
+                                                                                        }
+                                                                                      },
+                                                                                      {
+                                                                                        "threshold": 8,
+                                                                                        "model": {
+                                                                                          "type": "minecraft:model",
+                                                                                          "model": "item/currencies/freemarks/freemark_16-3"
+                                                                                        }
+                                                                                      }
+                                                                                    ]
+                                                                                  },
+                                                                                  "on_false": {
+                                                                                    "type": "minecraft:condition",
+                                                                                    "property": "minecraft:component",
+                                                                                    "predicate": "minecraft:written_book_content",
+                                                                                    "value": {
+                                                                                      "author": "ALPHA_2071",
+                                                                                      "title": "[64] Freemark",
+                                                                                      "generation": 2
+                                                                                    },
+                                                                                    "on_true": {
+                                                                                      "type": "minecraft:range_dispatch",
+                                                                                      "property": "minecraft:count",
+                                                                                      "normalize": false,
+                                                                                      "entries": [
+                                                                                        {
+                                                                                          "threshold": 1,
+                                                                                          "model": {
+                                                                                            "type": "minecraft:model",
+                                                                                            "model": "item/currencies/freemarks/freemark_64-1"
+                                                                                          }
+                                                                                        },
+                                                                                        {
+                                                                                          "threshold": 4,
+                                                                                          "model": {
+                                                                                            "type": "minecraft:model",
+                                                                                            "model": "item/currencies/freemarks/freemark_64-2"
+                                                                                          }
+                                                                                        },
+                                                                                        {
+                                                                                          "threshold": 8,
+                                                                                          "model": {
+                                                                                            "type": "minecraft:model",
+                                                                                            "model": "item/currencies/freemarks/freemark_64-3"
+                                                                                          }
+                                                                                        }
+                                                                                      ]
+                                                                                    },
+                                                                                    "on_false": {
+                                                                                      "type": "minecraft:model",
+                                                                                      "model": "minecraft:item/written_book"
+                                                                                    }
+                                                                                  }
+                                                                                }
+                                                                              }
+                                                                            }
+                                                                          }
+                                                                        }
+                                                                      }
+                                                                    }
+                                                                  }
+                                                                }
+                                                              }
+                                                            }
+                                                          }
+                                                        }
+                                                      }
+                                                    }
+                                                  }
+                                                }
+                                              }
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
