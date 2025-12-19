@@ -44,6 +44,7 @@
   - Danswijk
   - Grendtabtia
   - Occitania
+  - Taurcia
 - Currency textures for:
   - Beruninos
   - Fexomonedas ᴾˡᵉᵃˢᵉ ᵈᵒⁿᵗ ᶜᵒᵐᵐᶦᵗ ᶠᵒʳᵍᵉʳʸ
@@ -66,7 +67,8 @@
   - Netherite Armour: `Mechanicus ...`
   - Netherite Sword: `Mechanicus Battleaxe`
 - Askegardd:
-  - Netherite Armour: `askegarddian ...`
+  - Netherite Armour: `Askegarddian ...`
+  - Netherite Sword: `Askegarddia Javelin`
 - Atlasia:
   - Netherite Armour: `Atlasian ...`
   - Netherite Sword: `Atlan Spike`
