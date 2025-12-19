@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "item/currencies/freemarks/freemark_1-2"
+  }
+}

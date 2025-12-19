@@ -1,0 +1,26 @@
+{
+	"credit": "Made with Blockbench",
+	"textureSize": [64, 32],
+	"texture": "textures/entity/equipment/humanoid/boots/mechanicus.png",
+	"models": [
+		{
+			"part": "left_shoe",
+			"id": "left_shoe",
+			"invertAxis": "xy",
+			"mirrorTexture": "u",
+			"translate": [1.9, -12, 0],
+			"boxes": [
+				{"coordinates": [-3.9, 0, -2, 4, 12, 4], "textureOffset": [0, 16], "sizeAdd": 0.75}
+			]
+		},
+		{
+			"part": "right_shoe",
+			"id": "right_shoe",
+			"invertAxis": "xy",
+			"translate": [-1.9, -12, 0],
+			"boxes": [
+				{"coordinates": [-0.1, 0, -2, 4, 12, 4], "textureOffset": [0, 16], "sizeAdd": 0.75}
+			]
+		}
+	]
+}

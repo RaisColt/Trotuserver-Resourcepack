@@ -31,6 +31,13 @@
           "type": "minecraft:model",
           "model": "item/grendtabtia/grendtabtia_sword"
         }
+      }, 
+      {
+        "when": "Askegarddian Javelin",
+        "model": {
+          "type": "minecraft:model",
+          "model": "item/askegardd/askegardd_sword"
+        }
       }
     ],
     "fallback": {

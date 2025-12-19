@@ -158,8 +158,14 @@
           "type": "minecraft:model",
           "model": "item/askegardd/askegardd_helmet"
         }
+      },
+      {
+        "when": "The Crown of Taurcia",
+        "model": {
+          "type": "minecraft:model",
+          "model": "item/taurcia/taurcia_crown"
+        }
       }
-
     ],
     "fallback": {
       "type": "minecraft:model",
