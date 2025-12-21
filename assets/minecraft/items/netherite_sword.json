@@ -31,7 +31,6 @@
           "type": "minecraft:model",
           "model": "item/grendtabtia/grendtabtia_sword"
         }
-<<<<<<< HEAD
       }, 
       {
         "when": "Askegarddian Javelin",
@@ -39,8 +38,6 @@
           "type": "minecraft:model",
           "model": "item/askegardd/askegardd_sword"
         }
-=======
->>>>>>> f1dd78db7606c16925e56b2fce876cb9905e01ff
       }
     ],
     "fallback": {

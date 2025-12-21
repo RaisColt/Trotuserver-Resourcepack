@@ -158,7 +158,6 @@
           "type": "minecraft:model",
           "model": "item/askegardd/askegardd_helmet"
         }
-<<<<<<< HEAD
       },
       {
         "when": "The Crown of Taurcia",
@@ -166,11 +165,14 @@
           "type": "minecraft:model",
           "model": "item/taurcia/taurcia_crown"
         }
+      }, 
+      {
+        "when": "The Crown of Valora",
+        "model": {
+          "type": "minecraft:model",
+          "model": "item/valora/valora_crown"
+        }
       }
-=======
-      }
-
->>>>>>> f1dd78db7606c16925e56b2fce876cb9905e01ff
     ],
     "fallback": {
       "type": "minecraft:model",

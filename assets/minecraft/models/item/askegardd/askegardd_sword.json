@@ -1,11 +1,7 @@
 {
 	"parent": "minecraft:item/handheld",
 	"textures": {
-<<<<<<<< HEAD:assets/minecraft/models/item/askegardd/askegardd_sword.json
 		"layer0": "item/askegardd/askegardd_sword"
-========
-		"layer0": "item/adeptus_mechanicus/adeptus_mechanicus_sword"
->>>>>>>> f1dd78db7606c16925e56b2fce876cb9905e01ff:assets/minecraft/models/item/adeptus_mechanicus/adeptus_mechanicus_sword.json
 	},
 	"display": {
 		"thirdperson_righthand": {
@@ -41,11 +37,7 @@
         	"gui": {
             "rotation": [ 0, 0, 0 ],
             "translation": [ 0, 0, 0 ],
-<<<<<<<< HEAD:assets/minecraft/models/item/askegardd/askegardd_sword.json
             "scale": [ 1.0, 1.0, 1.0 ]
-========
-            "scale": [ 1.35, 1.35, 1.0 ]
->>>>>>>> f1dd78db7606c16925e56b2fce876cb9905e01ff:assets/minecraft/models/item/adeptus_mechanicus/adeptus_mechanicus_sword.json
 		}
 	}
 }
