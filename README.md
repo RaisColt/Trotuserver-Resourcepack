@@ -45,9 +45,11 @@
   - Grendtabtia
   - Occitania
   - Taurcia
+  - Valora
 - Currency textures for:
   - Beruninos
   - Fexomonedas ᴾˡᵉᵃˢᵉ ᵈᵒⁿᵗ ᶜᵒᵐᵐᶦᵗ ᶠᵒʳᵍᵉʳʸ
+  - Pipomoneda ᴾˡᵉᵃˢᵉ ᶜᵒᵐᵐᶦᵗ ᶠᵒʳᵍᵉʳʸ
   - Freemarks
   - Noble Crownets
 - Textures for R.I.C.:
