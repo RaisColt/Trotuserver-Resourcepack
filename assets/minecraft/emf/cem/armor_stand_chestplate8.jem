@@ -8,7 +8,6 @@
 			"id": "body",
 			"invertAxis": "xy",
 			"translate": [0, -24, 0],
-			"textureSize": [64, 32],
 			"boxes": [
 				{"coordinates": [-4, 12, -2, 8, 12, 4], "textureOffset": [16, 16], "sizeAdd": 0.75}
 			]
@@ -19,7 +18,6 @@
 			"invertAxis": "xy",
 			"mirrorTexture": "u",
 			"translate": [5, -22, 0],
-			"textureSize": [64, 32],
 			"boxes": [
 				{"coordinates": [-8, 12, -2, 4, 12, 4], "textureOffset": [40, 16], "sizeAdd": 0.75}
 			]
@@ -29,7 +27,6 @@
 			"id": "right_arm",
 			"invertAxis": "xy",
 			"translate": [-5, -22, 0],
-			"textureSize": [64, 32],
 			"boxes": [
 				{"coordinates": [4, 12, -2, 4, 12, 4], "textureOffset": [40, 16], "sizeAdd": 0.75}
 			]

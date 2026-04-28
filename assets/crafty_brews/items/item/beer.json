@@ -1,0 +1,33 @@
+{
+  "model": {
+    "type": "minecraft:condition",
+    "property": "minecraft:using_item",
+    "on_false": {
+      "type": "minecraft:model",
+      "model": "crafty_brews:item/beer"
+    },
+    "on_true": {
+      "type": "minecraft:range_dispatch",
+      "property": "minecraft:use_duration",
+      "scale": 0.03125,
+      "entries": [
+        {
+          "threshold": 0.01,
+          "model": { "type": "minecraft:model", "model": "crafty_brews:item/beer_eat_0" }
+        },
+        {
+          "threshold": 0.25,
+          "model": { "type": "minecraft:model", "model": "crafty_brews:item/beer_eat_1" }
+        },
+        {
+          "threshold": 0.5,
+          "model": { "type": "minecraft:model", "model": "crafty_brews:item/beer_eat_2" }
+        },
+        {
+          "threshold": 0.75,
+          "model": { "type": "minecraft:model", "model": "crafty_brews:item/beer_eat_3" }
+        }
+      ]
+    }
+  }
+}

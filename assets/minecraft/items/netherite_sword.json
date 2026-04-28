@@ -38,6 +38,13 @@
           "type": "minecraft:model",
           "model": "item/askegardd/askegardd_sword"
         }
+      },
+      {
+        "when": "Our Edelweiss Must Be Bigger",
+        "model": {
+          "type": "minecraft:model",
+          "model": "item/berun/berun_sword"
+        }
       }
     ],
     "fallback": {

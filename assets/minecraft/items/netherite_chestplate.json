@@ -80,6 +80,13 @@
           "type": "minecraft:model",
           "model": "item/askegardd/askegardd_chestplate"
         }
+      },
+      {
+        "when": "Queendom Chestplate",
+        "model": {
+          "type": "minecraft:model",
+          "model": "item/queendom/queendom_chest"
+        }
       }
     ],
     "fallback": {

@@ -1,0 +1,42 @@
+{
+  "model": {
+    "type": "minecraft:condition",
+    "property": "minecraft:using_item",
+    "on_false": {
+      "type": "minecraft:model",
+      "model": "crafty_brews:item/vodka"
+    },
+    "on_true": {
+      "type": "minecraft:range_dispatch",
+      "property": "minecraft:use_duration",
+      "remaining": true,
+      "scale": 0.048,
+      "entries": [
+        {
+          "threshold": 0.01,
+          "model": { "type": "minecraft:model", "model": "crafty_brews:item/vodka_eat_3" }
+        },
+        {
+          "threshold": 0.35,
+          "model": { "type": "minecraft:model", "model": "crafty_brews:item/vodka_eat_2" }
+        },
+        {
+          "threshold": 0.57,
+          "model": { "type": "minecraft:model", "model": "crafty_brews:item/vodka_eat_1" }
+        },
+        {
+          "threshold": 0.8,
+          "model": { "type": "minecraft:model", "model": "crafty_brews:item/vodka_eat_0" }
+        },
+        {
+          "threshold": 1.0,
+          "model": { "type": "minecraft:model", "model": "crafty_brews:item/vodka" }
+        }
+      ],
+      "fallback": {
+        "type": "minecraft:model",
+        "model": "crafty_brews:item/vodka"
+      }
+    }
+  }
+}

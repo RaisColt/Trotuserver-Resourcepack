@@ -1,0 +1,44 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "crafty_brews:item/tequila"
+  },
+  "gui_light": "front",
+  "display": {
+    "thirdperson_righthand": {
+      "rotation": [0, -90, -45],
+      "translation": [0, 1.5, 0.5],
+      "scale": [0.27, 0.27, 0.27]
+    },
+    "thirdperson_lefthand": {
+      "rotation": [0, 90, 45],
+      "translation": [0, 1.5, 0.5],
+      "scale": [0.27, 0.27, 0.27]
+    },
+    "firstperson_righthand": {
+      "rotation": [0, -90, 10],
+      "translation": [1.13, 3.2, 1.13],
+      "scale": [0.24, 0.24, 0.24]
+    },
+    "firstperson_lefthand": {
+      "rotation": [0, 90, -10],
+      "translation": [1.13, 3.2, 1.13],
+      "scale": [0.24, 0.24, 0.24]
+    }, 
+    "ground": {
+      "rotation": [ 0, 0, 0 ],
+      "translation": [ 0, 0, 0 ],
+      "scale": [ 0.3, 0.3, 0.3]
+    },
+    "gui": {
+      "rotation": [ 0, 0, 0 ],
+      "translation": [ 0, 0, 0 ],
+      "scale": [ 0.7, 0.7, 0.7 ]
+    },
+    "fixed": {
+      "rotation": [ 0, 180, 0 ],
+      "translation": [ 0, 0, 0 ],
+      "scale": [ 0.7, 0.7, 0.7 ]
+    }
+  } 
+}
