@@ -172,6 +172,13 @@
           "type": "minecraft:model",
           "model": "item/valora/valora_crown"
         }
+      },
+      {
+        "when": "Queendom Helmet",
+        "model": {
+          "type": "minecraft:model",
+          "model": "item/queendom/queendom_helmet"
+        }
       }
     ],
     "fallback": {

@@ -1,0 +1,29 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "crafty_brews:item/chocolatemilk_eat_3"
+  },
+	"gui_light": "front",
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [-25, -90, -115],
+			"translation": [0, 3, 2],
+			"scale": [0.55, 0.55, 0.55]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [-25, 90, 115],
+			"translation": [0, 3, 2],
+			"scale": [0.55, 0.55, 0.55]
+		},
+		"firstperson_righthand": {
+			"rotation": [-90, -155, -65],
+			"translation": [1.8, 6.3, 1.5],
+			"scale": [0.48, 0.48, 0.48]
+		},
+		"firstperson_lefthand": {
+			"rotation": [-94, 15, 60],
+			"translation": [1.8, 6.3, 1.5],
+			"scale": [0.48, 0.48, 0.48]
+		}
+  	}
+}

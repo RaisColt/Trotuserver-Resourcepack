@@ -1,0 +1,33 @@
+{
+	"parent": "minecraft:item/handheld",
+	"textures": {
+		"layer0": "item/berun/berun_sword"
+	},
+	"display": {
+		"thirdperson_righthand": {
+            "rotation": [ 0, -90, 55 ],
+            "translation": [ 0, 6.0, 0.5 ],
+            "scale": [ 1, 1, 0.85 ]
+        },
+        	"thirdperson_lefthand": {
+            "rotation": [ 0, 90, -55 ],
+            "translation": [ 0, 6.0, 0.5 ],
+            "scale": [ 1, 1, 0.85 ]
+        },
+        	"firstperson_righthand": {
+            "rotation": [ 0, -90, 25 ],
+            "translation": [ 0.5, 2.5, 1.0 ],
+            "scale": [ 1, 1, 0.68 ]
+        },
+        	"firstperson_lefthand": {
+            "rotation": [ 0, 90, -25 ],
+            "translation": [ 0.5, 2.5, 1.0 ],
+            "scale": [ 1, 1, 0.68 ]
+        },
+        	"fixed": {
+            "rotation": [ 0, 0, 0 ],
+            "translation": [ 0, 0, 0 ],
+            "scale": [ 1, 1, 1 ]
+        }
+	}
+}

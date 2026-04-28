@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "crafty_brews:item/redwine_eat_2"
+  },
+  "gui_light": "front",
+  "display": {
+    "thirdperson_righthand": {
+		"rotation": [-25, -90, -115],
+      	"translation": [0, 1.5, 2],
+      	"scale": [0.40, 0.40, 0.40]
+	  },
+    "thirdperson_lefthand": {
+	    "rotation": [-25, 90, 115],
+	    "translation": [0, 1.5, 2],
+	    "scale": [0.40, 0.40, 0.40]
+    },
+    "firstperson_righthand": {
+      	"rotation": [80, -50, 70],
+      	"translation": [1.13, 3.2, 1.13],
+      	"scale": [0.48, 0.48, 0.48]
+    },
+    "firstperson_lefthand": {
+      	"rotation": [80, -50, 70],
+      	"translation": [1.13, 3.2, 1.13],
+      	"scale": [0.48, 0.48, 0.48]
+    },
+	"gui": {
+      "rotation": [ 0, 0, 0 ],
+      "translation": [ 0, 0, 0 ],
+      "scale": [ 0.9, 0.9, 0.9 ]
+    }
+  }
+}

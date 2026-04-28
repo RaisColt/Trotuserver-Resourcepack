@@ -73,6 +73,13 @@
           "type": "minecraft:model",
           "model": "item/askegardd/askegardd_leggings"
         }
+      },
+      {
+        "when": "Queendom Leggings",
+        "model": {
+          "type": "minecraft:model",
+          "model": "item/queendom/queendom_leggings"
+        }
       }
     ],
     "fallback": {

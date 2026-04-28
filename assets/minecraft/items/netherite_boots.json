@@ -80,6 +80,13 @@
           "type": "minecraft:model",
           "model": "item/askegardd/askegardd_boots"
         }
+      },
+      {
+        "when": "Queendom Boots",
+        "model": {
+          "type": "minecraft:model",
+          "model": "item/queendom/queendom_boots"
+        }
       }
     ],
     "fallback": {

@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "crafty_brews:item/tequila_eat_3"
+  },
+  "gui_light": "front",
+  "display": {
+    "thirdperson_righthand": {
+		"rotation": [-25, -90, -115],
+      	"translation": [0, 1.5, 2],
+      	"scale": [0.27, 0.27, 0.27]
+	  },
+    "thirdperson_lefthand": {
+	    "rotation": [-25, 90, 115],
+	    "translation": [0, 1.5, 2],
+	    "scale": [0.27, 0.27, 0.27]
+    },
+    "firstperson_righthand": {
+      	"rotation": [90, -40, 85],
+      	"translation": [1.13, 3.2, 1.13],
+      	"scale": [0.24, 0.24, 0.24]
+    },
+    "firstperson_lefthand": {
+      	"rotation": [90, -40, 85],
+      	"translation": [1.13, 3.2, 1.13],
+      	"scale": [0.24, 0.24, 0.24]
+    },
+	"gui": {
+      "rotation": [ 0, 0, 0 ],
+      "translation": [ 0, 0, 0 ],
+      "scale": [ 0.7, 0.7, 0.7 ]
+    }
+  }
+}

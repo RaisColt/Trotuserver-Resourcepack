@@ -1,0 +1,29 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "crafty_brews:item/beer_eat_2"
+  },
+  "gui_light": "front",
+  "display": {
+    "thirdperson_righthand": {
+	    "rotation": [-25, -90, -115],
+      "translation": [0, 3, 2],
+      "scale": [0.55, 0.55, 0.55]
+	  },
+    "thirdperson_lefthand": {
+	    "rotation": [-25, 90, 115],
+	    "translation": [0, 3, 2],
+	    "scale": [0.55, 0.55, 0.55]
+    },
+    "firstperson_righthand": {
+      "rotation": [-95, -140, -80],
+      "translation": [1.55, 5.4, 1.75],
+      "scale": [0.48, 0.48, 0.48]
+    },
+    "firstperson_lefthand": {
+      "rotation": [-88, 30, 68],
+      "translation": [1.55, 5.4, 1.75],
+      "scale": [0.48, 0.48, 0.48]
+    }
+  }
+}
