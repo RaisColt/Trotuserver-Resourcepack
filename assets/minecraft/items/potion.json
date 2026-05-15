@@ -1,0 +1,309 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:custom_model_data",
+    "index": 0,
+    "cases": [
+      {
+        "when": "crafty_brews:beer",
+        "model": {
+            "type": "minecraft:condition",
+            "property": "minecraft:using_item",
+            "on_false": {
+            "type": "minecraft:model",
+            "model": "crafty_brews:item/beer"
+            },
+            "on_true": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:use_duration",
+            "scale": 0.03125,
+            "entries": [
+                {
+                "threshold": 0.01,
+                "model": { "type": "minecraft:model", "model": "crafty_brews:item/beer_eat_0" }
+                },
+                {
+                "threshold": 0.25,
+                "model": { "type": "minecraft:model", "model": "crafty_brews:item/beer_eat_1" }
+                },
+                {
+                "threshold": 0.5,
+                "model": { "type": "minecraft:model", "model": "crafty_brews:item/beer_eat_2" }
+                },
+                {
+                "threshold": 0.75,
+                "model": { "type": "minecraft:model", "model": "crafty_brews:item/beer_eat_3" }
+                }
+            ],
+            "fallback": {
+                "type": "minecraft:model",
+                "model": "crafty_brews:item/beer"
+            }
+            }
+        }
+      },
+      {
+        "when": "crafty_brews:vodka",
+        "model": {
+            "type": "minecraft:condition",
+            "property": "minecraft:using_item",
+            "on_false": {
+                "type": "minecraft:model",
+                "model": "crafty_brews:item/vodka"
+            },
+            "on_true": {
+                "type": "minecraft:range_dispatch",
+                "property": "minecraft:use_duration",
+                "remaining": true,
+                "scale": 0.048,
+                "entries": [
+                    {
+                    "threshold": 0.01,
+                    "model": { "type": "minecraft:model", "model": "crafty_brews:item/vodka_eat_3" }
+                    },
+                    {
+                    "threshold": 0.35,
+                    "model": { "type": "minecraft:model", "model": "crafty_brews:item/vodka_eat_2" }
+                    },
+                    {
+                    "threshold": 0.57,
+                    "model": { "type": "minecraft:model", "model": "crafty_brews:item/vodka_eat_1" }
+                    },
+                    {
+                    "threshold": 0.8,
+                    "model": { "type": "minecraft:model", "model": "crafty_brews:item/vodka_eat_0" }
+                    },
+                    {
+                    "threshold": 1.0,
+                    "model": { "type": "minecraft:model", "model": "crafty_brews:item/vodka" }
+                    }
+                ],
+                "fallback": {
+                    "type": "minecraft:model",
+                    "model": "crafty_brews:item/vodka"
+                }
+            }
+        }
+      },
+      {
+        "when": "crafty_brews:redwine",
+        "model": {
+            "type": "minecraft:condition",
+            "property": "minecraft:using_item",
+            "on_false": {
+            "type": "minecraft:model",
+            "model": "crafty_brews:item/redwine"
+            },
+            "on_true": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:use_duration",
+            "remaining": true,
+            "scale": 0.048,
+            "entries": [
+                {
+                "threshold": 0.01,
+                "model": { "type": "minecraft:model", "model": "crafty_brews:item/redwine_eat_3" }
+                },
+                {
+                "threshold": 0.35,
+                "model": { "type": "minecraft:model", "model": "crafty_brews:item/redwine_eat_2" }
+                },
+                {
+                "threshold": 0.57,
+                "model": { "type": "minecraft:model", "model": "crafty_brews:item/redwine_eat_1" }
+                },
+                {
+                "threshold": 0.8,
+                "model": { "type": "minecraft:model", "model": "crafty_brews:item/redwine_eat_0" }
+                },
+                {
+                "threshold": 1.0,
+                "model": { "type": "minecraft:model", "model": "crafty_brews:item/redwine" }
+                }
+            ],
+            "fallback": {
+                "type": "minecraft:model",
+                "model": "crafty_brews:item/redwine"
+            }
+            }
+        }
+      },
+      {
+        "when": "crafty_brews:tequila",
+        "model": {
+            "type": "minecraft:condition",
+            "property": "minecraft:using_item",
+            "on_false": {
+            "type": "minecraft:model",
+            "model": "crafty_brews:item/tequila"
+            },
+            "on_true": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:use_duration",
+            "remaining": true,
+            "scale": 0.048,
+            "entries": [
+                {
+                "threshold": 0.01,
+                "model": { "type": "minecraft:model", "model": "crafty_brews:item/tequila_eat_3" }
+                },
+                {
+                "threshold": 0.35,
+                "model": { "type": "minecraft:model", "model": "crafty_brews:item/tequila_eat_2" }
+                },
+                {
+                "threshold": 0.57,
+                "model": { "type": "minecraft:model", "model": "crafty_brews:item/tequila_eat_1" }
+                },
+                {
+                "threshold": 0.8,
+                "model": { "type": "minecraft:model", "model": "crafty_brews:item/tequila_eat_0" }
+                },
+                {
+                "threshold": 1.0,
+                "model": { "type": "minecraft:model", "model": "crafty_brews:item/tequila" }
+                }
+            ],
+            "fallback": {
+                "type": "minecraft:model",
+                "model": "crafty_brews:item/tequila"
+            }
+            }
+        }
+      },
+      {
+        "when": "crafty_brews:whitetea",
+        "model": {
+            "type": "minecraft:condition",
+            "property": "minecraft:using_item",
+            "on_false": {
+            "type": "minecraft:model",
+            "model": "crafty_brews:item/whitetea"
+            },
+            "on_true": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:use_duration",
+            "remaining": true,
+            "scale": 0.048,
+            "entries": [
+                {
+                "threshold": 0.01,
+                "model": { "type": "minecraft:model", "model": "crafty_brews:item/whitetea_eat_3" }
+                },
+                {
+                "threshold": 0.35,
+                "model": { "type": "minecraft:model", "model": "crafty_brews:item/whitetea_eat_2" }
+                },
+                {
+                "threshold": 0.57,
+                "model": { "type": "minecraft:model", "model": "crafty_brews:item/whitetea_eat_1" }
+                },
+                {
+                "threshold": 0.8,
+                "model": { "type": "minecraft:model", "model": "crafty_brews:item/whitetea_eat_0" }
+                },
+                {
+                "threshold": 1.0,
+                "model": { "type": "minecraft:model", "model": "crafty_brews:item/whitetea" }
+                }
+            ],
+            "fallback": {
+                "type": "minecraft:model",
+                "model": "crafty_brews:item/whitetea"
+            }
+            }
+        }
+      },
+      {
+        "when": "crafty_brews:coffee",
+        "model": {
+            "type": "minecraft:condition",
+            "property": "minecraft:using_item",
+            "on_false": {
+            "type": "minecraft:model",
+            "model": "crafty_brews:item/coffee"
+            },
+            "on_true": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:use_duration",
+            "remaining": true,
+            "scale": 0.048,
+            "entries": [
+                {
+                "threshold": 0.01,
+                "model": { "type": "minecraft:model", "model": "crafty_brews:item/coffee_eat_3" }
+                },
+                {
+                "threshold": 0.35,
+                "model": { "type": "minecraft:model", "model": "crafty_brews:item/coffee_eat_2" }
+                },
+                {
+                "threshold": 0.57,
+                "model": { "type": "minecraft:model", "model": "crafty_brews:item/coffee_eat_1" }
+                },
+                {
+                "threshold": 0.8,
+                "model": { "type": "minecraft:model", "model": "crafty_brews:item/coffee_eat_0" }
+                },
+                {
+                "threshold": 1.0,
+                "model": { "type": "minecraft:model", "model": "crafty_brews:item/coffee" }
+                }
+            ],
+            "fallback": {
+                "type": "minecraft:model",
+                "model": "crafty_brews:item/coffee"
+            }
+            }
+        }
+      },
+      {
+        "when": "crafty_brews:chocolatemilk",
+        "model": {
+            "type": "minecraft:condition",
+            "property": "minecraft:using_item",
+            "on_false": {
+            "type": "minecraft:model",
+            "model": "crafty_brews:item/chocolatemilk"
+            },
+            "on_true": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:use_duration",
+            "remaining": true,
+            "scale": 0.048,
+            "entries": [
+                {
+                "threshold": 0.01,
+                "model": { "type": "minecraft:model", "model": "crafty_brews:item/chocolatemilk_eat_3" }
+                },
+                {
+                "threshold": 0.35,
+                "model": { "type": "minecraft:model", "model": "crafty_brews:item/chocolatemilk_eat_2" }
+                },
+                {
+                "threshold": 0.57,
+                "model": { "type": "minecraft:model", "model": "crafty_brews:item/chocolatemilk_eat_1" }
+                },
+                {
+                "threshold": 0.8,
+                "model": { "type": "minecraft:model", "model": "crafty_brews:item/chocolatemilk_eat_0" }
+                },
+                {
+                "threshold": 1.0,
+                "model": { "type": "minecraft:model", "model": "crafty_brews:item/chocolatemilk" }
+                }
+            ],
+            "fallback": {
+                "type": "minecraft:model",
+                "model": "crafty_brews:item/chocolatemilk"
+            }
+            }
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/potion"
+    }
+  }
+}
