@@ -3,11 +3,15 @@
 
 ## Retextures
 - Bottom cactus texture as _kaktus_.
-- Piglin brute face as _kaktus_
+- Azure Bluet as Edelweiss.
+- Piglin brute face as _kaktus_.
 - Enhanced shield banners.
 - Menu screen panorama as Spawn Island.
 - Brown pandas as grizzly bears.
 - `U+263A` as a trollface.
+- Bread as Onigiri
+- Cooked Cod as Sushi
+- Sweet Berries as Strawberry Jam
 - Custom paintings:
   - alban
   - aztec
@@ -71,7 +75,9 @@
 - Askegardd:
   - Netherite Armour: `Askegarddian ...`
   - Netherite Sword: `Askegarddia Javelin`
-- Atlasia:
+- Queendom of Atlasia:
+  - Netherite Armour: `Queendom ...`
+- Atlasian Realm:
   - Netherite Armour: `Atlasian ...`
   - Netherite Sword: `Atlan Spike`
   - Elytra: `Atlasian Wings`
@@ -85,6 +91,7 @@
   - Netherite Armour: `Beleriand ...`
 - Berun:
   - Netherite Armor: `Berunian ...`
+  - Netherite Sword: `Our Edelweiss Must Be Bigger`
 - Chesapeak:
   - Netherite Armour: `Chesapeak ...`
 - Cormere:
