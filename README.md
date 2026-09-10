@@ -27,6 +27,7 @@
   - graham
   - kebab
   - match
+  - orb
   - pigscene
   - pool
   - skeleton
@@ -55,6 +56,7 @@
   - Fexomonedas ᴾˡᵉᵃˢᵉ ᵈᵒⁿᵗ ᶜᵒᵐᵐᶦᵗ ᶠᵒʳᵍᵉʳʸ
   - Pipomoneda ᴾˡᵉᵃˢᵉ ᶜᵒᵐᵐᶦᵗ ᶠᵒʳᵍᵉʳʸ
   - Freemarks
+  - Ducats
   - Noble Crownets
 - Textures for R.I.C.:
   - Ticket
