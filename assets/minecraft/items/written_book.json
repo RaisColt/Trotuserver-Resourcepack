@@ -754,8 +754,143 @@
                                                                                       ]
                                                                                     },
                                                                                     "on_false": {
-                                                                                      "type": "minecraft:model",
-                                                                                      "model": "minecraft:item/written_book"
+                                                                                      "type": "minecraft:condition",
+                                                                                      "property": "minecraft:component",
+                                                                                      "predicate": "minecraft:written_book_content",
+                                                                                      "value": {
+                                                                                        "author": "CraftyC_MC",
+                                                                                        "title": "「1」Ducat",
+                                                                                        "generation": 2
+                                                                                      },
+                                                                                      "on_true": { 
+                                                                                        "type": "minecraft:range_dispatch",
+                                                                                        "property": "minecraft:count",
+                                                                                        "normalize": false,
+                                                                                        "entries": [
+                                                                                          {
+                                                                                            "threshold": 1,
+                                                                                            "model": {
+                                                                                              "type": "minecraft:model",
+                                                                                              "model": "item/currencies/ducats/ducat_1-1"
+                                                                                            }
+                                                                                          },
+                                                                                          {
+                                                                                            "threshold": 4,
+                                                                                            "model": {
+                                                                                              "type": "minecraft:model",
+                                                                                              "model": "item/currencies/ducats/ducat_1-2"
+                                                                                            }
+                                                                                          },
+                                                                                          {
+                                                                                            "threshold": 8,
+                                                                                            "model": {
+                                                                                              "type": "minecraft:model",
+                                                                                              "model": "item/currencies/ducats/ducat_1-3"
+                                                                                            }
+                                                                                          }, 
+                                                                                          {
+                                                                                            "threshold": 16,
+                                                                                            "model": {
+                                                                                              "type": "minecraft:model",
+                                                                                              "model": "item/currencies/ducats/ducat_1-4"
+                                                                                            }
+                                                                                          }
+                                                                                        ]
+                                                                                      },
+                                                                                      "on_false": {
+                                                                                        "type": "minecraft:condition",
+                                                                                        "property": "minecraft:component",
+                                                                                        "predicate": "minecraft:written_book_content",
+                                                                                        "value": {
+                                                                                          "author": "CraftyC_MC",
+                                                                                          "title": "「4」Ducat",
+                                                                                          "generation": 2
+                                                                                        },
+                                                                                        "on_true": { 
+                                                                                          "type": "minecraft:range_dispatch",
+                                                                                          "property": "minecraft:count",
+                                                                                          "normalize": false,
+                                                                                          "entries": [
+                                                                                            {
+                                                                                              "threshold": 1,
+                                                                                              "model": {
+                                                                                                "type": "minecraft:model",
+                                                                                                "model": "item/currencies/ducats/ducat_4-1"
+                                                                                              }
+                                                                                            },
+                                                                                            {
+                                                                                              "threshold": 4,
+                                                                                              "model": {
+                                                                                                "type": "minecraft:model",
+                                                                                                "model": "item/currencies/ducats/ducat_4-2"
+                                                                                              }
+                                                                                            },
+                                                                                            {
+                                                                                              "threshold": 8,
+                                                                                              "model": {
+                                                                                                "type": "minecraft:model",
+                                                                                                "model": "item/currencies/ducats/ducat_4-3"
+                                                                                              }
+                                                                                            }, 
+                                                                                            {
+                                                                                              "threshold": 16,
+                                                                                              "model": {
+                                                                                                "type": "minecraft:model",
+                                                                                                "model": "item/currencies/ducats/ducat_4-4"
+                                                                                              }
+                                                                                            }
+                                                                                          ]
+                                                                                        },
+                                                                                        "on_false": {
+                                                                                          "type": "minecraft:condition",
+                                                                                          "property": "minecraft:component",
+                                                                                          "predicate": "minecraft:written_book_content",
+                                                                                          "value": {
+                                                                                            "author": "CraftyC_MC",
+                                                                                            "title": "「16」Ducat",
+                                                                                            "generation": 2
+                                                                                          },
+                                                                                          "on_true": { 
+                                                                                            "type": "minecraft:range_dispatch",
+                                                                                            "property": "minecraft:count",
+                                                                                            "normalize": false,
+                                                                                            "entries": [
+                                                                                              {
+                                                                                                "threshold": 1,
+                                                                                                "model": {
+                                                                                                  "type": "minecraft:model",
+                                                                                                  "model": "item/currencies/ducats/ducat_16-1"
+                                                                                                }
+                                                                                              },
+                                                                                              {
+                                                                                                "threshold": 4,
+                                                                                                "model": {
+                                                                                                  "type": "minecraft:model",
+                                                                                                  "model": "item/currencies/ducats/ducat_16-2"
+                                                                                                }
+                                                                                              },
+                                                                                              {
+                                                                                                "threshold": 8,
+                                                                                                "model": {
+                                                                                                  "type": "minecraft:model",
+                                                                                                  "model": "item/currencies/ducats/ducat_16-3"
+                                                                                                }
+                                                                                              }, 
+                                                                                              {
+                                                                                                "threshold": 16,
+                                                                                                "model": {
+                                                                                                  "type": "minecraft:model",
+                                                                                                  "model": "item/currencies/ducats/ducat_16-4"
+                                                                                                }
+                                                                                              }
+                                                                                            ]
+                                                                                          },
+                                                                                        "on_false": {
+                                                                                          "type": "minecraft:model",
+                                                                                          "model": "minecraft:item/written_book"
+                                                                                        }
+                                                                                        }
+                                                                                      }
                                                                                     }
                                                                                   }
                                                                                 }
